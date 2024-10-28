@@ -4,7 +4,7 @@ import "../styles.css";
 
 function Navbar() {
   const [durum, setDurum] = useState(true);
-  console.log(durum);
+  // console.log(durum);
 
   window.onscroll = function () {
     scrollFunction();
@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
+        <h1 className="text-4xl  font-bold "></h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
